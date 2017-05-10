@@ -1,0 +1,1098 @@
+{
+	"count": 1318,
+	"next": null,
+	"previous": "https://summerofcode.withgoogle.com/api/program/current/project/?page=13&page_size=100",
+	"results": [
+		{
+			"id": 4611796561297408,
+			"title": "WikiPathways Pathway Presenter",
+			"subcategory": "wikipathways",
+			"organization": {
+				"id": 4702232323817472,
+				"name": "National Resource for Network Biology (NRNB)",
+				"slug": "national-resource-for-network-biology-nrnb",
+				"website_url": "http://www.nrnb.org/gsoc.html",
+				"category": "science_and_medicine",
+				"contact_email": "alex.pico@gladstone.ucsf.edu",
+				"mailing_list": "https://groups.google.com/forum/#!forum/cytoscape-helpdesk",
+				"irc_channel": null,
+				"tagline": "Developing open source software to enable network-based biomedical discovery",
+				"precis": "The National Resource for Network Biology (NRNB) organizes the development of free, open source software to enable network-based visualization, analysis, and biomedical discovery.",
+				"description": "The [National Resource for Network Biology (NRNB)](http://www.nrnb.org) organizes the development of free, open source software technologies to enable network-based visualization, analysis, and biomedical discovery. Biomedical research is increasingly dependent on knowledge expressed in terms of networks, including gene, protein and drug interactions, cell-cell and viral-host communication, and vast social networks. Our technologies enable researchers to assemble and analyze these networks and to use them to better understand biological systems and, in particular, how they fail in disease. \n\nThe NRNB mentoring organization includes projects such as [Cytoscape](http://cytoscape.org/), [WikiPathways](http://wikipathways.org/), [SBML](http://sbml.org/), and [cBioPortal](http://cbioportal.org/). *This is a great opportunity to work at the intersection of biology and computing!* For example, Cytoscape is downloaded over **16,000 times per month** by researchers. We take mentoring seriously and are proud of our [>90% success rate](http://www.nrnb.org/alumni.html#gsoc-tab) with former students and projects. But don't take our word for it, read testimonials from prior NRNB students [students](http://www.nrnb.org/testimonials.html#student-tab) and [mentors](http://www.nrnb.org/testimonials.html#mentor-tab).\n\nFind out more about the software projects being developed in coordination with NRNB. Also refer to the [NRNB GSoC page](http://www.nrnb.org/gsoc.html)  for additional resources and application tips.",
+				"tags": [],
+				"primary_open_source_license": "GNU Library or \"Lesser\" General Public License version 3.0 (LGPL-3.0)",
+				"image_url": "//lh3.googleusercontent.com/YzPk1f3ipPpwVcqD8JZOapIqcQYmOshsqCfiggqLVeXjWlvuk16njQk5McoJ_1YHYtXXGeOdKMwuzVM9ahz8meMgpJf6FA",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": "https://twitter.com/cytoscape",
+				"blog_url": "http://www.nrnb.org/gsoc-reports.html",
+				"application_instructions": "Start with [this Google Doc template](https://docs.google.com/document/d/1Zi6L38CHEeq2aL6xzv0Ozhd_Y6D71W3yCBGHplmxr6k/edit?usp=sharing). Copy and paste the contents into your own, new Goolge Doc and begin filling it out. Get in contact with your potential mentors (listed per project) as soon as possible to get input and feedback on your application. Submit your application well before the deadline. Late submissions will NOT be considered.\n\n##Template:\n\n###<Your Proposal Title>\n####Personal Background\n* Name, email, links\n* Education and relevant work experience\n####Relevant Skills\n* What are your languages of choice and how do they relate to the project?\n* Any prior experience with open source development?\n* What do you want to learn this summer?\n* Any prior exposure to biology or bioinformatics?\n####Project Proposal\n* Project overview, expanded from your mentor’s (or your original) idea\n* Project details. Multiple sections describing key aspects of the project. Provide as much detail as possible\n* Strong applicants include an implementation plan and timeline (hint!)\n* Refer to and link to other projects or products that illustrate your ideas\n* Identify possible hurdles and questions that will require more research and planning\n####Your Availability\n* When do your classes and exams finish?\n* Do you have any other school-related activities scheduled during the coding period?\n* Do you have a full- or part-time job or internship planned for this summer?\n* How many hours per week do have available for a summer project?",
+				"topic_tags": [
+					"network biology",
+					"graphics",
+					"web",
+					"ui/ux",
+					"database"
+				],
+				"technology_tags": [
+					"java",
+					" javascript",
+					"python",
+					"php",
+					"c++"
+				],
+				"proposal_tags": [
+					"cytoscape",
+					"cytoscape.js",
+					"sbml",
+					"sbol",
+					"wikipathways",
+					"sbgn",
+					"pathvisio",
+					"biopax",
+					"cytoscape app",
+					"graphspace"
+				],
+				"ideas_list": "https://github.com/nrnb/GoogleSummerOfCode/issues",
+				"contact_method": "alex.pico@gladstone.ucsf.edu",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5915874662809600,
+				"display_name": "jcbwndsr",
+				"program_year": 2017
+			},
+			"abstract": "WikiPathways is an open and collaborative platform for sharing biological pathway information. It features an interactive diagram that aids the user in understanding the pathway. However, the educational capabilities of these diagrams can be improved. Studies show that when information is given in steps, with dynamic visual\naids, audience attention and understanding increases dramatically. Ideas presented graphically, as a “story\", are far easier to comprehend and remember than static information. Thus, step-by-step presentations of pathway diagrams would dramatically enhance the educational capabilities of WikiPathways. \n\nIn this proposal, a new \"Pathway Presenter\" is outlined that will enable biologists to create dynamic presentations of the pathways in WIkiPathways. This will allow for the creation of succinct and easily comprehensible diagrams that can be shared and embedded across multiple platforms.",
+			"assignee_display_names": [
+				"Egon Willighagen"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 6288042571595776,
+			"title": "Wikipedia List-Extractor",
+			"subcategory": "extraction",
+			"organization": {
+				"id": 6256528802709504,
+				"name": "DBpedia",
+				"slug": "dbpediaspotlight",
+				"website_url": "http://dbpedia.org",
+				"category": "data_and_databases",
+				"contact_email": "dbpedia-developers@lists.sourceforge.net",
+				"mailing_list": "http://wiki.dbpedia.org/get-involved",
+				"irc_channel": "http://wiki.dbpedia.org/gsoc2017",
+				"tagline": "a Large, Multilingual, Semantic Knowledge Graph",
+				"precis": "The DBpedia Extraction Framework builds knowledge bases with information from Wikipedia, Wikimedia Commons, Wikidata.\nIt serves as a central hub for the Web of data.",
+				"description": "*Almost every major Web company has now announced its work on a Knowledge Graph: Google’s Knowledge Graph, Yahoo!’s Web of Objects, Microsoft's Satori Graph, Walmart Lab’s Social Genome, and Facebook’s Entity Graph, just to cite the biggest ones.*\n\n# DBpedia\n**DBpedia** is a community-run project that has been working on a **free**, **open-source** Knowledge Graph **since 2006**!\n\nDBpedia currently describes **38.3 million** *“things”* of **685** different *“types”* in **128** languages, with over **4 billion** *“facts”*. It is interlinked to many other datasets. The knowledge in DBpedia is exposed through a technology stack called *Linked Data*, which has been revolutionizing the way applications interact with the Web: with Linked Data technologies, all APIs are interconnected via standard Web protocols and languages.\n\n# The Web of data\nSuch *Web of data* provides useful knowledge that can complement the *Web of documents* in many ways. See, for instance, how bloggers tag their posts or assign them to categories in order to organize and interconnect their blog posts. This is a very simple way to connect unstructured text to a structure (hierarchy of tags). For more advanced examples, see how **BBC** has created the *World Cup 2010 website* by interconnecting textual content and facts from their knowledge base.\n\nOr, more recently, did you see that **IBM's Watson used DBpedia data to win the Jeopardy challenge**?\n\n# DBpedia Spotlight\n\n**DBpedia Spotlight** is an open source text annotation tool that connects text to Linked Data by marking names of things in text (we call that *spotting*) and selecting between multiple interpretations of these names (we call that *disambiguation*). For example, `Washington` can be interpreted in more than 50 ways including a state, a government or a person. You can already imagine that this is not a trivial task, especially when we're talking about millions of things and hundreds of types.\n\n# We are regularly growing our community through GSoC and can deliver more and more opportunities to you.",
+				"tags": [],
+				"primary_open_source_license": "Apache License 2.0 (Apache-2.0)",
+				"image_url": "//lh3.googleusercontent.com/MbAauPhNexXIa2AbDR3udLm0cWJVr_qhds1xMkuLuaoXQju7ffB2I2r433-GVq4JRAYnFCRuUI36Dccgdn8dhWLzo0nHzA",
+				"image_bg_color": null,
+				"gplus_url": "https://plus.google.com/communities/106164282465567855607",
+				"twitter_url": "https://twitter.com/dbpedia",
+				"blog_url": "http://blog.dbpedia.org",
+				"application_instructions": "All the details here:\n\nhttp://wiki.dbpedia.org/gsoc2017",
+				"topic_tags": [
+					"natural language processing",
+					"big data",
+					"semantic web",
+					"data science",
+					"knowledge extraction"
+				],
+				"technology_tags": [
+					" java",
+					"scala",
+					"graph",
+					"nosql",
+					"rdf"
+				],
+				"proposal_tags": [
+					"nlp",
+					"bot",
+					"entity classification",
+					"extraction"
+				],
+				"ideas_list": "http://wiki.dbpedia.org/ideas/ideas/scope:all/sort:activity-desc/tags:gsoc17",
+				"contact_method": "dbpedia-developers@lists.sourceforge.net",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 6387409055907840,
+				"display_name": "Krishh",
+				"program_year": 2017
+			},
+			"abstract": "Wikipedia, being the world’s largest encyclopedia, has humongous amount of information present in form of text. While key facts and figures are encapsulated in the resource’s infobox, and some detailed statistics are present in the form of tables, but there’s also a lot of data present in form of lists which are quite unstructured and hence its difficult to form into a semantic relationship. The project focuses on the extraction of relevant but hidden data which lies inside lists in Wikipedia pages. The main objective of the project would be to create a tool that can extract information from wikipedia lists, form appropriate RDF triplets that can be inserted in the DBpedia dataset.",
+			"assignee_display_names": [
+				"Marco Fossati"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5662414690320384,
+			"title": "Wireframe printing in Slic3r",
+			"subcategory": "slic3r",
+			"organization": {
+				"id": 5733719949180928,
+				"name": "BRL-CAD",
+				"slug": "brl-cad",
+				"website_url": "http://brlcad.org",
+				"category": "graphics",
+				"contact_email": "devs@brlcad.org",
+				"mailing_list": "http://brlcad.org/wiki/Mailing_Lists",
+				"irc_channel": "http://brlcad.org/wiki/IRC",
+				"tagline": "& LibreCAD, OpenSCAD, STEPcode, LinuxCNC, FreeCAD, & Slic3r!  Computer Graphics.",
+				"precis": "BRL-CAD is partnered with several computer-aided technologies (CAx) including LibreCAD, OpenSCAD, STEPcode, LinuxCNC, FreeCAD, & Slic3r.  We do graphics, geometry, CAD, & more.",
+				"description": "This is the place to be if you want to work on computer graphics, 3D printing, 2D and 3D geometry, solid modeling, CAx (CAD/CAM/CAE/etc), visualization, or high-performance computing.  BRL-CAD is participating as an umbrella organization with several other open source computer-aided technologies (CAx):\n\n* [BRL-CAD](https://brlcad.org) for 3D solid modeling, ray tracing, and geometric analysis.\n* [LibreCAD](http://librecad.org) for 2D, specializing in blueprint-style drawings and draftings.\n* [OpenSCAD](http://openscad.org) for programmable 3D CAD geometry.\n* [STEPcode](http://stepcode.org) for parsing the complex STEP geometry file format.\n* [FreeCAD](https://www.freecadweb.org) for parametric modeling with engineering functionality.\n* [Slic3r](http://slic3r.org) for generating printing instructions for 3D printers.",
+				"tags": [],
+				"primary_open_source_license": "ISC License (ISC)",
+				"image_url": "//lh3.googleusercontent.com/1h6Iq7ZKIWVFem1-tjvIzrfa2bATE0yFuXXwe4Sny5K1Kx9W2CExBFMhFUHwhqZsRA9gQjHR82Q3JkhpalnEQVdrt0fIPtU",
+				"image_bg_color": "222",
+				"gplus_url": null,
+				"twitter_url": "http://twitter.com/BRL_CAD",
+				"blog_url": "http://brlcad.org/",
+				"application_instructions": "We make it really simple for you.\n\n[GET STARTED HERE](http://brlcad.org/wiki/Google_Summer_of_Code/Checklist)!",
+				"topic_tags": [
+					"cad",
+					"geometry",
+					"3d",
+					"ray tracing",
+					"visualization"
+				],
+				"technology_tags": [
+					"c/c++",
+					"opencl",
+					"python",
+					"javascript",
+					"qt"
+				],
+				"proposal_tags": [
+					"brl-cad",
+					"librecad",
+					"stepcode",
+					"openscad",
+					"linuxcnc",
+					"freecad",
+					"slic3r"
+				],
+				"ideas_list": "http://brlcad.org/wiki/Google_Summer_of_Code/Project_Ideas",
+				"contact_method": "devs@brlcad.org",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 4821019651997696,
+				"display_name": "cvrieos",
+				"program_year": 2017
+			},
+			"abstract": "Layer-by-layer printing is optimal for functional parts and prototypes, but things made for form don’t always need much structure and oftentimes can take hours or even days to finish. Using a rough wireframe that allows the printer to extrude into 3D space could save time and material. A designer who wants to prototype the form of a product could hold a quick prototype in their hand minutes after finishing their design. This implementation of 3D printing could even become a cool new artform; upscaling a typical design to fit a large build envelope or even keeping the same scale for a cool effect similar to the popular Veroni versions of Yoda and similar “art” type models.",
+			"assignee_display_names": [
+				"Alessandro Ranellucci",
+				"Joseph Lenox"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5377403344912384,
+			"title": "Word Completion",
+			"subcategory": "optimization",
+			"organization": {
+				"id": 6600296080867328,
+				"name": "GNOME",
+				"slug": "gnome-2",
+				"website_url": "https://www.gnome.org/",
+				"category": "end_user_applications",
+				"contact_email": null,
+				"mailing_list": "https://mail.gnome.org/",
+				"irc_channel": "https://wiki.gnome.org/Community/GettingInTouch/IRC",
+				"tagline": "Non-profit organization that creates a computing platform for the general public",
+				"precis": "GNOME offers an easy to understand desktop and applications for your GNU/Linux computer.",
+				"description": "The GNOME project builds the technologies, platform, middle-ware, applications and environment to create a free software solution for using your personal computer. The GNOME project is:\n\nIndependent\n==========\nOur board is democratically elected, and technical decisions are made by the engineers doing the work. We are supported by many organizations; employees from over a hundred companies have contributed since the project began.\n\nFree\n====\nWe believe that software should be developed in the open. Our development infrastructure and communication channels are public, and our code can be freely downloaded, modified and shared with others. All our contributors have the same rights.\n\nConnected\n=========\nOur project is an important part of the Free Software ecosystem. We work with other free projects to create high-quality solutions that span the entire software stack.\n\nPeople-focused\n=============\nOur software is translated into many languages and comes with built in accessibility features. This means that it can be used by anyone, regardless of the language they speak or their physical abilities.",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 3.0 (GPL-3.0)",
+				"image_url": "//lh3.googleusercontent.com/B6bb5SgAtmlpvAdfOBblV5I7iuZ3PJMZreZi4dQunVkFu7VmMGISD4s_ACS9VUUdmOamdzV4CDuDrNMBLFbS4_dYdLizfuH7",
+				"image_bg_color": null,
+				"gplus_url": "https://plus.google.com/+gnome",
+				"twitter_url": "https://twitter.com/gnome/",
+				"blog_url": "http://planet.gnome.org/",
+				"application_instructions": "Please refer to https://wiki.gnome.org/Outreach/SummerOfCode/Students#Fill_out_the_Application",
+				"topic_tags": [
+					"desktop",
+					"applications",
+					"operating system"
+				],
+				"technology_tags": [
+					"c",
+					"python",
+					"gtk+",
+					" javascript",
+					"gobject"
+				],
+				"proposal_tags": [
+					"new feature",
+					"optimization",
+					"cloud connectivity",
+					"media",
+					"backend",
+					"middleware",
+					"application",
+					"library"
+				],
+				"ideas_list": "https://wiki.gnome.org/Outreach/SummerOfCode/2017/Ideas",
+				"contact_method": "https://wiki.gnome.org/Community/GettingInTouch/IRC",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 4632483808149504,
+				"display_name": "LucieCharvat",
+				"program_year": 2017
+			},
+			"abstract": "The word completion engine in Builder needs to be improved to support sorting words by their relative distance from the insertion cursor. This will allow for quickly autocompleting words based on their relative use in a function. As storing words from all open files can take a considerable amount of memory, it is expected the student researches novel techniques to balance search performance and memory overhead.",
+			"assignee_display_names": [
+				"Christian Hergert"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5483763438977024,
+			"title": "Work on AIMA-Python",
+			"subcategory": "aima-python",
+			"organization": {
+				"id": 5663121491361792,
+				"name": "aimacode",
+				"slug": "aimacode",
+				"website_url": "https://github.com/aimacode/",
+				"category": "languages",
+				"contact_email": "peter.norvig+aimacode@gmail.com",
+				"mailing_list": null,
+				"irc_channel": "https://gitter.im/aimacode/",
+				"tagline": "Code for the book \"Artificial Intelligence: A Modern Approach\"",
+				"precis": "This project provides implementations of the pseudocode algorithms in the textbook \"Artificial Intelligence: A Modern Approach,\" along with tutorial examples of algorithm usage.",
+				"description": "This project provides implementations of the pseudocode algorithms in the textbook \"Artificial Intelligence: A Modern Approach,\" along with tutorial examples of their usage, emphasizing visualizations that help students understand both the core underlying concepts and the specific ways to invoke the code.",
+				"tags": [],
+				"primary_open_source_license": "MIT license (MIT)",
+				"image_url": "//lh3.googleusercontent.com/phzpiPMFdtG7Y1braBzluD8Sakb430i_TgKqlD4aY86JsFj4lQWkzTJk1SVrFIdJdOcdCkZHXQGY2cxFiLLlOQdO2K5MJzJL",
+				"image_bg_color": "0000cc",
+				"gplus_url": null,
+				"twitter_url": null,
+				"blog_url": null,
+				"application_instructions": "Applicants should have excellent, clear, easy-to-understanding coding style in Python, Java, or Javascript, and a passion for making concepts clear to others. Experience creating algorithm visualizations is a plus. A clear and concise English writing style is a plus.",
+				"topic_tags": [
+					"artificial intelligence",
+					"machine learning",
+					"education"
+				],
+				"technology_tags": [
+					"python",
+					" javascript",
+					"machine learning",
+					"artificial intelligence",
+					"java"
+				],
+				"proposal_tags": [
+					"algorithms",
+					"visualization",
+					"examples",
+					"aima-java",
+					"aima-python",
+					"aima-javascript"
+				],
+				"ideas_list": "http://aima.cs.berkeley.edu/gsoc-ideas.html",
+				"contact_method": "peter.norvig+aimacode@gmail.com",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5446708877066240,
+				"display_name": "Antonis Maronikolakis",
+				"program_year": 2017
+			},
+			"abstract": "The Python repository includes IPython/Jupyter Notebooks that help the reader understand how the algorithms work and how to use their implementations. Currently this project is incomplete. A lot of algorithms are missing, some modules are empty and there are not enough examples. Also, some of the Python implementations in the repository are incomplete and don't have tests, and as new pseudocode is added to the new edition of the book, new implementations should be written.\n\nWith this project I aim at expanding the Notebooks, adding algorithms not yet covered, adding examples and editing existing Notebooks. I will also add visualization aids to help get the concepts across (for example graphing with matplotlib, or images).\n\nFinally, I will add tests to the modules and I will help finish incomplete implementations, while also implementing new algorithms as they are posted.",
+			"assignee_display_names": [
+				"Peter Norvig"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4617386125688832,
+			"title": "Work on Parallel Algorithms",
+			"subcategory": "parallel algorithms",
+			"organization": {
+				"id": 5833580732219392,
+				"name": "STE||AR Group",
+				"slug": "stear-group",
+				"website_url": "http://stellar-group.org/",
+				"category": "other",
+				"contact_email": "hpx-users@stellar.cct.lsu.edu",
+				"mailing_list": "https://mail.cct.lsu.edu/mailman/listinfo/hpx-users",
+				"irc_channel": "https://github.com/STEllAR-GROUP/hpx/wiki/HPX-Resource-Guide",
+				"tagline": "The C++ Standards Library for Concurrency and Parallelism",
+				"precis": "HPX is shaking up HPC through a unique combination of C++ language development and parallelism research. Join the STE||AR Group this summer to help push the bar on what's possible.",
+				"description": "The STE||AR Group is an international team of researchers who understand that a new approach to parallel computation is needed.  Our work is crafted around the idea that we need to invent new ways to more efficiently use the resources that we have and use the knowledge that we gain to help guide the creation of the machines of tomorrow.  While we develop several software products, the library which is most heavily developed and core to our team is HPX. \n\nHPX (High Performance ParalleX) is a general purpose C++ runtime system for parallel and distributed applications of any scale. It strives to provide a unified programming model which transparently utilizes the available resources to achieve unprecedented levels of scalability.  This library strictly adheres to the C++11 Standard and leverages the Boost C++ Libraries which makes HPX easy to use, highly optimized, and very portable.  HPX is developed for conventional architectures including Linux-based systems, Windows, Mac, and the BlueGene/Q, as well as accelerators such as the Xeon Phi.\n\nWe envision HPX as a library which provides services to applications which makes writing efficient, maintainable, and scalable parallel and distributed codes much simpler than current popular paradigms. Currently HPX is used to develop scientific and industrial applications and in the future we hope to expand its influence to include common applications that touch our everyday lives.\n\nIf you are looking for a project which incorporates cutting edge HPC research, runtime library development, and C++ standardization check out our [ideas page](https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-2017-Project-Ideas) and contact us either though the #ste||ar channel on IRC (Freenode) or via an email at <hpx-users@stellar.cct.lsu.edu>",
+				"tags": [],
+				"primary_open_source_license": "Boost Software License (BSL-1.0)",
+				"image_url": "//lh3.googleusercontent.com/tmnJNkvDOEF7e1V0X-BV_NBiVDrwvSZatV7QwWroeMkZiaZF2rVjyT4qilSkaBiEyzycmkP_0aiEMcHqj29PLpBScbCUN-0",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": null,
+				"blog_url": "http://stellar-group.org/blog/",
+				"application_instructions": "Please see our complete instructions for proposal submission [here](https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-Submission-Template)",
+				"topic_tags": [
+					"runtime systems",
+					"c++ standardizaion",
+					"algorithms",
+					"parallel computing",
+					"high performance computing"
+				],
+				"technology_tags": [
+					"c++",
+					"boost",
+					"hpx",
+					"c++17 parallel stl",
+					"parallel algorithms"
+				],
+				"proposal_tags": [
+					"hpx",
+					"libgeodecomp",
+					"parallel algorithms",
+					"application",
+					"optimization",
+					"library"
+				],
+				"ideas_list": "https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-2017-Project-Ideas",
+				"contact_method": "hpx-users@stellar.cct.lsu.edu",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5343340154322944,
+				"display_name": "Ajai George",
+				"program_year": 2017
+			},
+			"abstract": "My proposal is to complete the implementation of the N4409 C++ STL parallelization standard algorithms in HPX. Since #1141 has mostly been resolved by implementing many of the algorithms, my main focus will be on resolving #1338. But I will first work on implementing the few remaining algorithms in issue #1141 then move onto issue #1338. So I will implement is_heap, partial_sort, partition, remove, merge, and unique.\nAfter this I will move on to #1338, which is about ensuring that these algorithms work seamlessly with distributed data structures like hpx::vector. I will extend as many of the remaining algorithms as possible in the timeframe. I will do this along with unit tests and performance tests. I will also ensure that the documentation and the tutorials are upto date with the new features. I will also update or add relevant examples to the hpx code base.",
+			"assignee_display_names": [
+				"Marcin Copik"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5151083935563776,
+			"title": "Work on Parallel Algorithms for HPX",
+			"subcategory": "parallel algorithms",
+			"organization": {
+				"id": 5833580732219392,
+				"name": "STE||AR Group",
+				"slug": "stear-group",
+				"website_url": "http://stellar-group.org/",
+				"category": "other",
+				"contact_email": "hpx-users@stellar.cct.lsu.edu",
+				"mailing_list": "https://mail.cct.lsu.edu/mailman/listinfo/hpx-users",
+				"irc_channel": "https://github.com/STEllAR-GROUP/hpx/wiki/HPX-Resource-Guide",
+				"tagline": "The C++ Standards Library for Concurrency and Parallelism",
+				"precis": "HPX is shaking up HPC through a unique combination of C++ language development and parallelism research. Join the STE||AR Group this summer to help push the bar on what's possible.",
+				"description": "The STE||AR Group is an international team of researchers who understand that a new approach to parallel computation is needed.  Our work is crafted around the idea that we need to invent new ways to more efficiently use the resources that we have and use the knowledge that we gain to help guide the creation of the machines of tomorrow.  While we develop several software products, the library which is most heavily developed and core to our team is HPX. \n\nHPX (High Performance ParalleX) is a general purpose C++ runtime system for parallel and distributed applications of any scale. It strives to provide a unified programming model which transparently utilizes the available resources to achieve unprecedented levels of scalability.  This library strictly adheres to the C++11 Standard and leverages the Boost C++ Libraries which makes HPX easy to use, highly optimized, and very portable.  HPX is developed for conventional architectures including Linux-based systems, Windows, Mac, and the BlueGene/Q, as well as accelerators such as the Xeon Phi.\n\nWe envision HPX as a library which provides services to applications which makes writing efficient, maintainable, and scalable parallel and distributed codes much simpler than current popular paradigms. Currently HPX is used to develop scientific and industrial applications and in the future we hope to expand its influence to include common applications that touch our everyday lives.\n\nIf you are looking for a project which incorporates cutting edge HPC research, runtime library development, and C++ standardization check out our [ideas page](https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-2017-Project-Ideas) and contact us either though the #ste||ar channel on IRC (Freenode) or via an email at <hpx-users@stellar.cct.lsu.edu>",
+				"tags": [],
+				"primary_open_source_license": "Boost Software License (BSL-1.0)",
+				"image_url": "//lh3.googleusercontent.com/tmnJNkvDOEF7e1V0X-BV_NBiVDrwvSZatV7QwWroeMkZiaZF2rVjyT4qilSkaBiEyzycmkP_0aiEMcHqj29PLpBScbCUN-0",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": null,
+				"blog_url": "http://stellar-group.org/blog/",
+				"application_instructions": "Please see our complete instructions for proposal submission [here](https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-Submission-Template)",
+				"topic_tags": [
+					"runtime systems",
+					"c++ standardizaion",
+					"algorithms",
+					"parallel computing",
+					"high performance computing"
+				],
+				"technology_tags": [
+					"c++",
+					"boost",
+					"hpx",
+					"c++17 parallel stl",
+					"parallel algorithms"
+				],
+				"proposal_tags": [
+					"hpx",
+					"libgeodecomp",
+					"parallel algorithms",
+					"application",
+					"optimization",
+					"library"
+				],
+				"ideas_list": "https://github.com/STEllAR-GROUP/hpx/wiki/GSoC-2017-Project-Ideas",
+				"contact_method": "hpx-users@stellar.cct.lsu.edu",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5678306935439360,
+				"display_name": "taeguk",
+				"program_year": 2017
+			},
+			"abstract": "Implementation of the rest of parallel algorithms except sorting algorithms (#1141)\n--------------------------------------------------------------------------------------------------\nHPX is “The C++ Standards Library for Concurrency and Parallelism”. So, implementing C++17 parallelism like N4409 is very important. Currently, most of parallel algorithms are already implemented as can be seen in #1141. But, still some algorithms are not implemented. My objective is implementing the rest of parallel algorithms except sorting algorithms in #1141. The list is as follows:\n - is_heap, is_heap_until\n - partition, partition_copy\n - remove, remove_if\n - inplace_merge, merge\n - unique, unique_copy.\n\nImprovement of ```hpx::parallel::util::scan_partitioner```\n-----------------------------------------------------------------------------------------\nCurrently, the ```scan_partitioner``` uses a sequential approach for propagation of partition results in step 2. If there are a large number of partitions and f2 (the function for propagation invoked in step 2) is heavy function, there may be performance issues. And the ```scan_partitioner``` performs scan individually and sequentially in each partition in step 1. When uses an operand which has unpredictable consuming time, performance seems to be bounded by the slowest partition in step 1. My objective is resolving these issues for improving ```scan_partitioner```.",
+			"assignee_display_names": [
+				"John Biddiscombe"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5903046541312000,
+			"title": "Write high speed subtitle synchronization tools",
+			"subcategory": "subtitles",
+			"organization": {
+				"id": 6301119262228480,
+				"name": "CCExtractor Development",
+				"slug": "ccextractor-development",
+				"website_url": "https://www.ccextractor.org",
+				"category": "graphics",
+				"contact_email": "gsoc@ccextractor.org",
+				"mailing_list": "",
+				"irc_channel": "http://www.ccextractor.org/doku.php?id=public:general:support",
+				"tagline": "Tools for a subtitled world.",
+				"precis": "CCExtractor is the standard open source tool to generate subtitle files. Getting better all the time, still lots of things to do.",
+				"description": "Whether it's because you are learning a new language, have hearing problems or just at a loud place, subtitles are an essential part of enjoying TV and movies for a a lot of people. There's plenty of tools to manage audio/video, but it comes to subtitles, the few tools that exist are closed source and extremely expensive. CCExtractor is the one tool that is free, portable, open source and community managed that can take a recording from a TV show and generate an external subtitle file for it. \nIf you regularly watch content with subtitles you download from fan sites - you should know that the source file is most likely generated by CCExtractor. If you are a student in a university that uses subtitles for natural language study, you should know that most likely we are involved somehow. \nWhile we already support subtitles from North America, Europe, Australia and more, our world map is not yet complete. We are actively looking for students that want to help us fill the gaps.\nWe also want to automate many of the processes that are currently done manually, such as achieving perfect sync, or word by word (karaoke like) sync.",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 2.0 (GPL-2.0)",
+				"image_url": "//lh3.googleusercontent.com/bmn8lDMD4wTb6piHiXGhNunekaab5EJZKM4ElBVjVc9CvWsbRGJDA5Czeci9r5q3Zp0BFg00I-Z3alE4zAy7UEf7BN6ecw0",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": null,
+				"blog_url": null,
+				"application_instructions": "Key things when writing your proposal (but make sure you visit our website for more details):\n\n- Explain what you do want to do, why it is important to you, and why it is important or useful to us.\n- Explain how you intend to accomplish the goal, in enough detail that makes it clear that you know what you are talking about. For example, “I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy” is the same thing as sending your proposal to the trash. You need to have a plan.\n- Detail the timeline, week by week, explaining the deliverables for each week (pay special attention to the milestones within the GSoC timeline itself, of course) and how we should validate the results.\n- Detail what kind of support you will need for us. For example, if you are going to need test streams, hardware, access to a server, etc, let us know, so we can plan ahead.\n- Detail your expected working hours in UTC.\n- If you are going to be using 3rd party libraries (that's OK), make sure to validate that their license is compatible with GPLv2 (which is ours). List the libraries in your proposal. Check that they are multiplatform. If you will need to extend those libraries in any way please explain. In this case, your proposal should include time to get that extension submitted to the maintainers (we love to contribute to other projects).",
+				"topic_tags": [
+					"subtitles",
+					"television",
+					"movies",
+					"media"
+				],
+				"technology_tags": [
+					"c",
+					"python",
+					"raspberry pi",
+					"linux",
+					"visual studio"
+				],
+				"proposal_tags": [
+					"c",
+					"feature",
+					"subtitles",
+					"improvement",
+					"bugfix",
+					"optimization"
+				],
+				"ideas_list": "https://ccextractor.org/public:gsoc:ideas_page_for_summer_of_code_2017",
+				"contact_method": "gsoc@ccextractor.org",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5563025181376512,
+				"display_name": "Amey-Jain",
+				"program_year": 2017
+			},
+			"abstract": "Tool A: Tool A will be implemented using audio fingerprinting. Given original video, its subtitle file and edited video, tool will be able to create a subtitle file for edited video. Since edited video has timing differences original subtitle file can not be used with it. Audio fingerprinting will be implemented in C, using wavelets. These fingerprints will be saved then in database for further matching. \nTool B: Given original subtitle file and audio for edited file, tool will create subtitle file for in sync with edited audio. This will be done using the duration of audio frames in audio file and duration of subtitles from subtitle file. They will be matched against each other with reference to order of occurrence. On this basis subtitles absent from original file and timing will be altered.",
+			"assignee_display_names": [
+				"Carlos Fernandez Sanz"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4749427110576128,
+			"title": "Write supports for BTRFS",
+			"subcategory": "filesystems",
+			"organization": {
+				"id": 6514892937887744,
+				"name": "Haiku",
+				"slug": "haiku",
+				"website_url": "http://www.haiku-os.org",
+				"category": "operating_systems",
+				"contact_email": null,
+				"mailing_list": "https://www.haiku-os.org/community/ml",
+				"irc_channel": "https://www.haiku-os.org/community/irc",
+				"tagline": "Light open-source operating system that specifically targets personal computing.",
+				"precis": "Haiku is an open-source operating system that specifically targets personal computing. Inspired by the BeOS, Haiku is fast, simple to use, easy to learn and yet very powerful.",
+				"description": "Haiku is an open source operating system currently in development. Specifically targeting personal computing, Haiku is a fast, efficient, simple to use, easy to learn, and yet very powerful system for computer users of all levels. Additionally, Haiku offers something over other open source platforms which is quite unique: The project consists of a single team writing everything from the kernel, drivers, userland services, tool kit, and graphics stack to the included desktop applications and preflets. While numerous open source projects are utilized in Haiku, they are integrated seamlessly. This allows Haiku to achieve a level of consistency that provides many conveniences, and is truly enjoyable to use by both end-users and developers alike.\n\nWhat’s so good about Haiku anyway?\n==============================\n\nThe key highlights that distinguish Haiku from other operating systems include:\n\n- Specific focus on personal computing\n- Custom kernel designed for responsiveness\n- Fully threaded design for great efficiency with multi-processor/core CPUs\n- Rich OO API for faster development\n- Database-like file system (BFS) with support for indexed metadata\n- Unified, cohesive interface\n\nWhy Haiku?\n==========\n\nThe Be Operating System introduced progressive concepts and technologies that we believe represent the ideal means to simple and efficient personal computing. Haiku is the realization of those concepts and technologies in the form of an operating system that is open source and free.\n\nWho is behind Haiku?\n=================\n\nHaiku is developed by a growing community of volunteer developers from all around the world. Additionally, Haiku also exists thanks to the dedicated support of a fervent and friendly community, and that of Haiku, Inc., a non-profit organization founded by former project leader Michael Phipps with the purpose of supporting the development of Haiku as well as the growth of both the community and the Haiku platform.",
+				"tags": [],
+				"primary_open_source_license": "MIT license (MIT)",
+				"image_url": "//lh3.googleusercontent.com/JxdzFGxwzpYZkJbQgQBGcXTxmOkd4e47xD7oPoOqeLM9Ykjvq2_CbkIRu4rWEoAfrqnyGiTJ8JOzKS370Ocbebpvf1Szt4eo",
+				"image_bg_color": "336698",
+				"gplus_url": "",
+				"twitter_url": null,
+				"blog_url": null,
+				"application_instructions": "Requirements\n===========\nApplying students are required to submit a code contribution to our [bugtracker](https://dev.haiku-os.org/). This could either be a [task marked easy](https://dev.haiku-os.org/query?status=assigned&status=new&status=reopened&summary=~easy), [TODO commented in code](http://xref.plausible.coop/source/search?q=TODO&defs=&refs=&path=&hist=&project=haiku), [Code style cleanup](https://www.haiku-os.org/development/coding-guidelines), fix for [PVS](http://pulkomandy.github.io) or [Coverity scan](https://scan.coverity.com/projects/haiku-32bit) issues, or any other unlisted task.\nSubmitting code that relates to your project will indicate a higher level of understanding and ability. The number and difficulty of resolved issues will be taken into consideration when evaluating your application. It is suggested to include the keyword \"gsoc2017\" on tickets that contain submissions, as this facilitates finding them in the future.\n\nWhy do you want a code contribution before I'm accepted?\n==============================================\n\nThis serves several purposes. It displays that you have the most basic skills that are required: building Haiku from source, running Haiku either natively or inside a VM, and using tools for online collaboration (bug tracker, mailing lists, IRC, etc.). More importantly, it provides our mentors with some insight into each individual student's motivation and abilities. It is an opportunity for you, the student to showcase yourself and to convince us that you are indeed the right person for the job.\n\nAdditional advice and hints\n=====================\n\nA more complete page is available on our website:\nhttps://www.haiku-os.org/community/gsoc/2017/students",
+				"topic_tags": [
+					" desktop integration",
+					"operating system",
+					"kernel",
+					"user interface",
+					"frameworks"
+				],
+				"technology_tags": [
+					"c++",
+					"posix"
+				],
+				"proposal_tags": [
+					"applications",
+					"drivers",
+					"kernel",
+					"filesystems",
+					"media",
+					"network",
+					"user interface",
+					"other"
+				],
+				"ideas_list": "https://www.haiku-os.org/community/gsoc/2017/ideas",
+				"contact_method": "https://www.haiku-os.org/community/irc",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 6746861244252160,
+				"display_name": "Hy Che",
+				"program_year": 2017
+			},
+			"abstract": "Btrfs (B-tree filesystem) is a filesystem uses B+trees as its main on-disk data structure. It is based on Copy-on-Write (CoW) principle which means it does copy only when a write request is sent or a modification is necessary. Btree (and its variant like B+tree) is used most in filesystem, database system. In Haiku operating system, Btrfs is currently support read-only, the codebase only shows the basic structure of B+Tree, read operations, it lacks of core tree manipulation code, write supports, and other features.\nThe project ideas request supporting write features for Btrfs. This will be accomplished in the following steps: Setting up userland friendly development mode for Btrfs, implementing tree operations (splittings, CoW, etc), adding more Btrfs structures if necessary, implementing write-feature functions.",
+			"assignee_display_names": [
+				"mmu_man",
+				"Fredrik Holmqvist"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 6085667476996096,
+			"title": "wxWebView JavaScript Integration",
+			"subcategory": "cross-platform",
+			"organization": {
+				"id": 5671749946441728,
+				"name": "wxWidgets",
+				"slug": "wxwidgets",
+				"website_url": "http://www.wxwidgets.org/",
+				"category": "languages",
+				"contact_email": "wx-dev@googlegroups.com",
+				"mailing_list": "http://www.wxwidgets.org/support/mailing-lists/",
+				"irc_channel": "http://www.wxwidgets.org/support/irc/",
+				"tagline": "Library for creating portable native GUIs in C++",
+				"precis": "wxWidgets is a C++ library for creating portable GUI applications with native look and feel.",
+				"description": "wxWidgets is a C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms with a single code base. It has popular language bindings for Python, Perl, Ruby and many other languages, and unlike other cross-platform toolkits, wxWidgets gives applications a truly native look and feel because it uses the platform's native API rather than emulating the GUI. It's also extensive, free, open-source and mature.",
+				"tags": [],
+				"primary_open_source_license": "wxWindows Library License (WXwindows)",
+				"image_url": "//lh3.googleusercontent.com/5eQXxzBUaCrs8FCvitCx9aekFFlS5hMAdtg1oLFePXwU75Wm-x16jN6dewQi39VQfNzV7gU8T2DVpRIwFV4h3pL5jRaYsrk",
+				"image_bg_color": null,
+				"gplus_url": "",
+				"twitter_url": null,
+				"blog_url": "http://wxwidgets.blogspot.com/",
+				"application_instructions": "http://www.wxwidgets.org/gsoc/",
+				"topic_tags": [
+					"cross-platform",
+					"desktop",
+					"gui"
+				],
+				"technology_tags": [
+					"c++",
+					"gtk+",
+					"win32",
+					"cocoa"
+				],
+				"proposal_tags": [
+					"c++",
+					"cross-platform",
+					"desktop",
+					"gui",
+					"native"
+				],
+				"ideas_list": "http://www.wxwidgets.org/gsoc/projects/",
+				"contact_method": "wx-dev@googlegroups.com",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 6232993847836672,
+				"display_name": "Jose Lorenzo",
+				"program_year": 2017
+			},
+			"abstract": "wxWebView currently provides a simple RunScript() function for running JavaScript. However in many cases it would be preferable have access to a return value, or even to call C++ from the JavaScript. This project would aim to provide at least basic functionality for accessing JavaScript values. An API would be required that ensures uniform behaviour across the different backends. Before applying for this project please contact the wx-dev mailing list as further research is required.",
+			"assignee_display_names": [
+				"Steven Lamerton",
+				"Mariano Reingart"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 6610611996721152,
+			"title": "Xcos Profiler",
+			"subcategory": "new feature",
+			"organization": {
+				"id": 5956812965675008,
+				"name": "Scilab",
+				"slug": "scilab",
+				"website_url": "http://www.scilab.org",
+				"category": "end_user_applications",
+				"contact_email": "contact@scilab-enterprises.com",
+				"mailing_list": "https://www.scilab.org/development/ml",
+				"irc_channel": "https://www.scilab.org/resources/user_community/irc",
+				"tagline": "Numerical computational package and high-level programming language.",
+				"precis": "Scilab is free and open source software for numerical computation providing a powerful computing environment for engineering and scientific applications.",
+				"description": "## What does Scilab do ?\nScilab includes hundreds of mathematical functions. It has a high level programming language allowing access to advanced data structures, 2-D and 3-D graphical functions.\n\nA large number of functionalities is included in Scilab:\n### [Maths & Simulation](http://www.scilab.org/en/scilab/features/scilab/maths_simulation)\nFor usual engineering and science applications including mathematical operations and data analysis.\n### [2-D & 3-D Visualization](http://www.scilab.org/en/scilab/features/scilab/visualization)\nGraphics functions to visualize, annotate and export data and many ways to create and customize various types of plots and charts. \n### [Optimization](http://www.scilab.org/en/scilab/features/scilab/optimization)\nAlgorithms to solve constrained and unconstrained continuous and discrete optimization problems. \n### [Statistics](http://www.scilab.org/en/scilab/features/scilab/statistics)\nTools to perform data analysis and modeling \n### [Control System Design & Analysis](http://www.scilab.org/en/scilab/features/scilab/control)\nStandard algorithms and tools for control system study \n### [Signal Processing](http://www.scilab.org/en/scilab/features/scilab/signal_processing)\nVisualize, analyze and filter signals in time and frequency domains. \n### [Application Development](http://www.scilab.org/en/scilab/features/scilab/application_development)\nIncrease Scilab native functionalities and manage data exchanges with external tools.\n### [Xcos - Hybrid dynamic systems modeler and simulator](http://www.scilab.org/en/scilab/features/xcos)\nModeling mechanical systems, hydraulic circuits, control systems...\n\n## Scilab as a platform\nThanks to its ability to interconnect with [third-party technologies](http://www.scilab.org/en/scilab/interoperability/calculation_engine) and [applications](http://www.scilab.org/en/scilab/interoperability/connection_applications), Scilab can also act as a unique platform to bring together codes written in [different programming languages](http://www.scilab.org/en/scilab/interoperability/connection_languages) in a single, unified language, thus facilitating their distribution, their back-up and use.",
+				"tags": [],
+				"primary_open_source_license": "CeCILL License 2.1 (CECILL-2.1)",
+				"image_url": "//lh3.googleusercontent.com/rZwejREWw7n27CTOfkv8ugLDFWq9WED4rDJIHN52PTn0Bn-vAZmvaDjcGtc1ZC3V6t_ef4MtacVRUncup_2JiHf80hYEkfc",
+				"image_bg_color": "092F4D",
+				"gplus_url": "https://plus.google.com/+scilab",
+				"twitter_url": "https://twitter.com/scilab",
+				"blog_url": null,
+				"application_instructions": "## The basics requirements\nTo participate on the GSoC program you should :\n\n1. introduce yourself on the [GSoC ML](gsoc@lists.scilab.org)\n2. ask questions and help others on [IRC](https://www.scilab.org/resources/user_community/irc)\n3. compile Scilab on your system and post a screenshot of the modified banner\n4. at least fix [one bug](http://bugzilla.scilab.org/) or [coverity issue](https://scan.coverity.com/projects/scilab) by following the patch submission process\n\n## See also\n * [Student manual](http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/)\n * [How to contribute to Scilab ?](https://wiki.scilab.org/How%20to%20contribute%20to%20Scilab)\n * [How to apply to the GSoC ?](https://wiki.scilab.org/How%20to%20apply%20to%20the%20GSOC%20%3F)",
+				"topic_tags": [
+					"graphics",
+					"numerical computing",
+					"programming language",
+					"scientific visualization"
+				],
+				"technology_tags": [
+					"c++",
+					"java",
+					"python",
+					"c",
+					"opengl"
+				],
+				"proposal_tags": [
+					"new feature",
+					"coverity fix",
+					"module bugfix",
+					"new toolbox"
+				],
+				"ideas_list": "https://wiki.scilab.org/GSoC_project_proposal",
+				"contact_method": "contact@scilab-enterprises.com",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5061206302785536,
+				"display_name": "Rui Shi",
+				"program_year": 2017
+			},
+			"abstract": "Since Scilab is an open source, various practitioners use it to simulate real-time applications and systems. However, Simulation cannot be achieved in zero time. Knowing execution time is a key to develop an accurate simulation in real-time areas. Precise measurement of execution time is important in area about life safety, such as military equipments, automotive and aerospace industries.\nAs we known, Matlab has a Profiler function which could measure where a program spends time. By using Matlab Profiler, we could evaluate and improve performance of programs. What I want to do is to make a similar function for Scilab.\nWe use Xcos to make models that have many blocks. In some cases, we want to know execution time of these blocks. A variety of literatures introduce the way of measuring execution time but they did not present directly time to users. Therefore, in this project, I will measure time and present time to users.",
+			"assignee_display_names": [
+				"Umut Durak",
+				"davidcl"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4543633020682240,
+			"title": "Xen: share memory areas among VMs from the config file",
+			"subcategory": "hypervisor",
+			"organization": {
+				"id": 5654744694521856,
+				"name": "Xen Project",
+				"slug": "xen-project",
+				"website_url": "http://xenproject.org/",
+				"category": "cloud",
+				"contact_email": "community.manager@xenproject.org",
+				"mailing_list": "https://xenproject.org/help/mailing-list.html",
+				"irc_channel": "https://xenproject.org/help/irc.html",
+				"tagline": "Bringing the power of virtualization everywhere",
+				"precis": "Xen Project software is extremely versatile and customizable due to its unique architecture bringing the power of virtualization everywhere.",
+				"description": "The Xen Project focuses on advancing virtualization in a number of different areas, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 2.0 (GPL-2.0)",
+				"image_url": "//lh3.googleusercontent.com/NV3zYYwLc4fzFTp4vheP0xpnvCOv4RPcVwMU3Tr4oVcH2eAqSDfYD270sqkG3IaZJZhrD-2H31xZ2PJYGB7SzieQtOGOZnk5",
+				"image_bg_color": null,
+				"gplus_url": "https://plus.google.com/b/109906712194947644104/109906712194947644104/about",
+				"twitter_url": "https://twitter.com/xen_org",
+				"blog_url": "http://blog.xenproject.org/",
+				"application_instructions": "Please check the following resources\n * [Eligibility](https://wiki.xenproject.org/wiki/2017-Summer-Internships#Eligibility_GSoC)\n * [Make a Small Contribution](https://wiki.xenproject.org/wiki/Internships/Make_a_Small_Contribution)\n * [How to Apply](https://wiki.xenproject.org/wiki/2017-Summer-Internships#How_To_Apply_to_GSoC)\n * [Application Template](https://wiki.xenproject.org/wiki/GSoC_Student_Application_Template)",
+				"topic_tags": [
+					"virtualization",
+					"security",
+					"cloud computing",
+					"unikernels",
+					"embedded/automotive"
+				],
+				"technology_tags": [
+					"linux",
+					"free/netbsd",
+					"asm/c/c++",
+					"qemu",
+					"ocaml"
+				],
+				"proposal_tags": [
+					"hypervisor",
+					"mirage os",
+					"infrastructure & community",
+					"xapi",
+					"drivers"
+				],
+				"ideas_list": "https://wiki.xenproject.org/wiki/2017-Summer-Internships",
+				"contact_method": "community.manager@xenproject.org",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 6230215870119936,
+				"display_name": "Zhongze Liu",
+				"program_year": 2017
+			},
+			"abstract": "Virtual machines use grant table hypercalls to setup a share page for inter-VMs communications. These hypercalls are used by all PV protocols today. However, very simple guests, such as baremetal applications, might not have the infrastructure to handle the grant table. This project is about setting up several shared memory areas for inter-VMs communications directly from the VM config file. So that the guest kernel doesn't have to have grant table support to be able to communicate with other guests. This should work on both x86 and ARM.",
+			"assignee_display_names": [
+				"Stefano Stabellini"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 6458294611738624,
+			"title": "XWiki Proposal for implementing RedPen",
+			"subcategory": "gsoc",
+			"organization": {
+				"id": 6547160783912960,
+				"name": "XWiki",
+				"slug": "xwiki",
+				"website_url": "http://www.xwiki.org/",
+				"category": "web",
+				"contact_email": "devs@xwiki.org",
+				"mailing_list": "http://dev.xwiki.org/xwiki/bin/Community/MailingLists",
+				"irc_channel": "http://dev.xwiki.org/xwiki/bin/view/Community/IRC",
+				"tagline": "The Advanced Open Source Enterprise Wiki",
+				"precis": "XWiki offers a generic web platform for developing collaborative applications using the wiki paradigm, allowing customization through a vast collection of extensions.",
+				"description": "XWiki is an open source software development platform based on the wiki principles, under the LGPL license. In addition to being a full-featured wiki, it is also a second generation wiki allowing effortless development of collaborative web applications. On top of this platform a plethora of applications are developed, targeted mainly on aiding enterprise-level needs.\n\nXWiki has a vibrant community of developers and users, consisting of individual users as well as organizations around the world that are using XWiki for their own Communities or Intranets.\n\nOne of the most high profile downstream projects built on top of XWiki is the XCLAMS framework, http://xclams.xwiki.org/, which is being used to develop open curriculae hubs such as Curriki, Open Sankoré and I2Geo. The XWiki organization already hosted a couple of projects supporting XCLAMS development in the past years, and this year the XCLAMS community decided to join us a sub-organization with more mentors and proposals.\n\nWithin XWiki, the development involves several levels: serverside platform programming in Java with Servlet technologies, serverside application development in Velocity, Groovy, CSS and HTML, RIA development in GWT, and clientside development in JavaScript.\n\nWe propose projects that cover serverside Servlet programming, rich application development on the clientside, usability and performance improvements.",
+				"tags": [],
+				"primary_open_source_license": "GNU Library or \"Lesser\" General Public License version 2.1 (LGPL-2.1)",
+				"image_url": "//lh3.googleusercontent.com/X2KDb4_smh8h9-ql_zXq27jAqW155jrZKdNAXsZcRdnF5tyFtsaXyXgjW0Yty1poyUnuU4L6S91cH6v5zHPRj_41kDPI82c",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": "https://twitter.com/xwikiorg",
+				"blog_url": "http://www.xwiki.org/xwiki/bin/Blog/",
+				"application_instructions": "# XWiki Guidelines\nBeing part of the XWiki community means knowing [our rules and practices](http://dev.xwiki.org/xwiki/bin/view/GoogleSummerOfCode/Guidelines). As a GSOC student you need to make sure you read and apply our guidelines. \n\n# Student Application template\nWhen applying for one of our projects, please provide [this information about yourself and the project you choose](http://dev.xwiki.org/xwiki/bin/view/GoogleSummerOfCode/student+application+form) in the application which you submit to Google.",
+				"topic_tags": [
+					"web development",
+					" web platform and services",
+					" wiki"
+				],
+				"technology_tags": [
+					"java",
+					" javascript",
+					" html5",
+					" css3",
+					" velocity"
+				],
+				"proposal_tags": [
+					"gsoc"
+				],
+				"ideas_list": "http://gsoc.xwiki.org/",
+				"contact_method": "devs@xwiki.org",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5081168981524480,
+				"display_name": "De Sheng Chuan",
+				"program_year": 2017
+			},
+			"abstract": "Proposal in contributing by creating an XWiki extension incorporating RedPen",
+			"assignee_display_names": [
+				"Vincent Massol"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5418523630239744,
+			"title": "YAML Based Convertor Framework for phpBB.",
+			"subcategory": "core",
+			"organization": {
+				"id": 4888954911326208,
+				"name": "phpBB Forum Software",
+				"slug": "phpbb-forum-software",
+				"website_url": "https://www.phpbb.com",
+				"category": "social_communications",
+				"contact_email": "operations@phpbb.com",
+				"mailing_list": null,
+				"irc_channel": "https://www.phpbb.com/support/irc",
+				"tagline": "phpBB is the most widely used free and open source forum software",
+				"precis": "Originally released in 2000, phpBB has since grown to include millions of users all over the world. We welcome you to join our community of developers, designers, and supporters.",
+				"description": "## What is phpBB?\nphpBB ('BB' for Bulletin Board) is the world's most popular free and open source forum solution. Our global community of contributors ensures that end-users receive a stable, secure, and infinitely customizable product that's easy to deploy and maintain, while also being fun and simple to use every day.\n\n## Why choose phpBB?\nOriginally released in 2000, the latest version of the phpBB software has evolved to include support for multiple database engines (PostgreSQL, SQLite, MySQL/MariaDB, Oracle, MS SQL Server), user groups, an extendable permissions system, hierarchical subforums, file attachments, a variety of notification options (E-Mail, Jabber, ATOM feeds), OAuth authentication, Emojis, and a variety of other features as well as support for PHP 7 and 7.1. The phpBB Customization Database of styles and extensions offers administrators endless ability to adapt the software to their needs.\n\nOur strict security practices have resulted in a solid product with a proven track record greatly exceeding that of our commercial competitors. Likewise, our coding guidelines and collaborative development model ensure that code quality is a top priority while encouraging constant developer learning and growth.\n\n## phpBB and Google Summer of Code\nWe are proud to have previously participated in the GSoC program three times with great success. Former phpBB GSoC student have flown across the world to meet the rest of our team during our annual hackathon and have gone on to become long-term contributors to the project, some even joining the core development team. We hope that you will help us continue this excellent trend.",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 2.0 (GPL-2.0)",
+				"image_url": "//lh3.googleusercontent.com/-tYoM7AE8avPvHSHUxvidrd9o-mYNZRwpnKVopCMwIS0EfMcsOF5nz2Cal6x5J245UIzN3tD4P5jPS3zsrCrg7TYAA6PikM",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": "https://twitter.com/phpbb",
+				"blog_url": "https://blog.phpbb.com",
+				"application_instructions": "We have prepared a [GSoC 2017 Instructions page](https://www.phpbb.com/development/gsoc/) that should guide you through the recommended steps for students prior to a proposal.\n\nFor your proposals, the [GSoC 2017 Student Proposal Guidelines](https://www.phpbb.com/development/gsoc/guidelines/) should assist you with writing a proposal that includes everything we expect and is more likely to be selected.",
+				"topic_tags": [
+					"social",
+					"communication",
+					"collaboration",
+					"forum",
+					"community"
+				],
+				"technology_tags": [
+					"php ",
+					"mysql",
+					"javascript",
+					"symfony",
+					"css"
+				],
+				"proposal_tags": [
+					"core",
+					"extensions",
+					"ui improvement",
+					"website",
+					"style"
+				],
+				"ideas_list": "https://www.phpbb.com/development/gsoc/ideas",
+				"contact_method": "operations@phpbb.com",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 6085088522534912,
+				"display_name": "Bala",
+				"program_year": 2017
+			},
+			"abstract": "Currently the converter framework for phpBB uses conversion system targeted to each forum script. To change this a unified easily definable and configurable system is required. Thus this proposal aims to create a unified YAML based converter framework, where conversion rules or definitions as called will be defined in the form of various YAML files.",
+			"assignee_display_names": [
+				"CHItA",
+				"Marc Alexander"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4957923680714752,
+			"title": "Zenodo Research Profile",
+			"subcategory": "researcher profiles",
+			"organization": {
+				"id": 4630502569934848,
+				"name": "Zenodo",
+				"slug": "inveniozenodo",
+				"website_url": "https://zenodo.org",
+				"category": "science_and_medicine",
+				"contact_email": "info@zenodo.org",
+				"mailing_list": null,
+				"irc_channel": "https://gitter.im/zenodo/zenodo",
+				"tagline": "A free and open digital archive for the long-tail of science.",
+				"precis": "Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research",
+				"description": "# Why Open Science?\nScience is only at its finest when its fruits are accessible to anyone in the world, when the data is publicly available to support the claims in the paper, and when the software is treated as first-class citizen in the scientific publishing, so that the results can be analyzed, reproduced and refined by anyone, today and 5, 10 or 100 years in the future. Principles of [Open Science](https://en.wikipedia.org/wiki/Open_science) are at the core of the scientific method.\n\nMost of the scholarly communication today is done as it was a hundred years ago. The data supporting the claims in the paper can be difficult to acquire or even impossible to find, software used to produce the results is a collection of scripts rotting-away on a laptop or a USB stick, while the paper itself, after it's been published, is kept behind a publisher's paywall, and is not easily accessible to everyone. The scientific community has yet to fully appreciate the lessons taught by the FOSS movement, and Zenodo[1] was built to make Open Science a reality for everyone.\n\n# What is Zenodo?\nZenodo is an open and free digital archive, allowing all researchers from around the world to publish their papers, data and software, which then can be cited, accessed, analyzed and reproduced by anyone. Zenodo is built by the researchers and software engineers at [CERN](http://home.cern/) in collaboration with [OpenAIRE](https://www.openaire.eu/), sharing passion for Open Source and Open Science. Zenodo is both a free and public [service](https://zenodo.org), as well as Free and Open Source [Software](http://zenodo.readthedocs.io), based on [Invenio](http://invenio.readthedocs.io) - a general purpose digital library platform, and also a FOSS developed and used by CERN as well as other institutions worldwide. By contributing to Zenodo you will also contribute to Invenio, so not only will you aid Open Science, but also many other scientific institutes and academic libraries around the world!\n\n[1] The name, Zenodo, is derived from [Zenodotus](https://en.wikipedia.org/wiki/Zenodotus), the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 2.0 (GPL-2.0)",
+				"image_url": "//lh3.googleusercontent.com/21kfnVj0eKPB6PCbQOL2IqUMLlsDAlH6NLeWuVbHKGqmOu9CLgc05JlvoSGIfEyP471hXzGuo3mc79htI-getDnwRjdLpf0",
+				"image_bg_color": null,
+				"gplus_url": null,
+				"twitter_url": "https://twitter.com/zenodo_org",
+				"blog_url": "http://blog.zenodo.org",
+				"application_instructions": "# General prerequisites\n\nZenodo is a Python web application (Flask), with relational database (PostgreSQL, SQLAlchemy), a search engine (Elasticsearch) and several other technologies - Redis, Celery, AngularJS. To contribute to Zenodo, you will need at minimum, a very good knowledge of Python, a good knowledge Object Oriented Programming, databases and RESTful web applications development.\n\n# How to get started\n\nAll information on how to apply to Zenodo is available on our [**Zenodo GSoC Wiki**](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017). Please read it carefully, especially the sections on:\n\n1. [**How to get started**](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#how-to-get-started).\n\n1. [**How to submit a proposal**](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#how-to-submit-a-proposal).",
+				"topic_tags": [
+					"content management",
+					"web",
+					"open science",
+					"digital library",
+					"machine learning"
+				],
+				"technology_tags": [
+					"python",
+					"postgresql",
+					"flask",
+					"angularjs",
+					"elasticsearch"
+				],
+				"proposal_tags": [
+					"researcher profiles",
+					"zenodo cli",
+					"advanced data previewers",
+					"spam filtering and content classification",
+					"research data metadata extraction"
+				],
+				"ideas_list": "https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#ideas-list",
+				"contact_method": "info@zenodo.org",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5224165616386048,
+				"display_name": "jainaman224",
+				"program_year": 2017
+			},
+			"abstract": "Zenodo is a great initiative for researchers and invenio is a collection of wonderful APIs. I have chosen this project because it targets every researcher and one of the basic and immediate requirements of the user from such a beautiful platform. It would also promote zenodo as researchers will start sharing their zenodo profiles in social media.",
+			"assignee_display_names": [
+				"Alex"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 5783814893731840,
+			"title": "Zulip Electron",
+			"subcategory": "desktop",
+			"organization": {
+				"id": 6508216277008384,
+				"name": "Zulip",
+				"slug": "zulip",
+				"website_url": "https://zulip.org/",
+				"category": "social_communications",
+				"contact_email": null,
+				"mailing_list": "https://groups.google.com/forum/#!forum/zulip-gsoc",
+				"irc_channel": "https://chat.zulip.org/",
+				"tagline": "Powerful, modern, open source group chat, complete with apps for every platform.",
+				"precis": "Zulip is a powerful group chat application. The server is written in Python with Django; you could also work on cross-platform mobile and desktop apps, or our many integrations.",
+				"description": "[Zulip](https://www.zulip.org) is a powerful, open source group chat application. The core web app is written in Python and uses the Django framework. We also make a React Native iOS app, a cross-platform Electron desktop app, and many service integrations, all open source.\n\nZulip supports both private messaging and group chats via conversation streams. Zulip also supports fast search, drag-and-drop file uploads, image previews, group private messages, audible notifications, missed-message emails, desktop apps, and [much more](https://www.zulip.org).\n\nZulip has gained a considerable amount of traction [since Dropbox released it as open source software in September 2015](https://blogs.dropbox.com/tech/2015/09/open-sourcing-zulip-a-dropbox-hack-week-project/), and is gaining more users at a rapid pace -- every day, at least tens of thousands of people use Zulip. Your work on Zulip will have impact on the daily experiences of a huge number of people.\n\nAs an organization, we value high-quality mentorship and making sure our product quality is extremely high -- you can expect to learn a lot how to make a large software project successful from disciplined code reviews by highly experienced engineers. Since Zulip is a group chat product, your GSoC experience with the Zulip project will be highly interactive (often collaborating with developers over chat to solve tricky problems), with a real focus on teaching you the concepts and reasoning behind how Zulip is engineered and how to make it better.",
+				"tags": [],
+				"primary_open_source_license": "Apache License 2.0 (Apache-2.0)",
+				"image_url": "//lh3.googleusercontent.com/4QMZsEPNQGKdGyU35C4SdDK6FeyuTwdeErPxqrt1E3WTja3Q0pTmMVp0fTYfaZpSwATBhoVSQXUYzbJ9MgI-5fMIq7mHMxg",
+				"image_bg_color": "7e98ad",
+				"gplus_url": null,
+				"twitter_url": "http://twitter.com/zuliposs",
+				"blog_url": "https://blog.zulip.org/",
+				"application_instructions": "We have application instructions at [our ideas page](https://github.com/zulip/zulip.github.io/blob/master/gsoc-ideas.md#application-tips-and-how-to-be-a-strong-candidate), along with tips on how to be a strong candidate.\n\nThe best applicants are those who take an ownership mentality with the part of the project that they're working on: finding and reporting bugs, reviewing others' code, carefully testing their work when they fix issues to ensure they don't cause other problems, carefully explaining their changes with clear variable names, comments, and commit messages, and helping other contributors with their work, just like the maintainer of an open source project would.",
+				"topic_tags": [
+					"enterprise",
+					"web development",
+					"group chat",
+					"cross-platform",
+					"mobile applications"
+				],
+				"technology_tags": [
+					"python",
+					"django",
+					"javascript",
+					"react native",
+					"electron"
+				],
+				"proposal_tags": [
+					"mobile",
+					"performance",
+					"integration",
+					"automated testing",
+					"apis",
+					"desktop",
+					"javascript",
+					"user experience",
+					"emoji",
+					"analytics"
+				],
+				"ideas_list": "https://github.com/zulip/zulip.github.io/blob/master/gsoc-ideas.md",
+				"contact_method": "https://chat.zulip.org/",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5082929381244928,
+				"display_name": "Zhongyi Tong",
+				"program_year": 2017
+			},
+			"abstract": "For Zulip Desktop:\n\n - Quicker Response to Customer Issues\n - Multi-Server Login\n - Centralized Preference Panel\n - Adjustments on Different OS Versions\n - Testing",
+			"assignee_display_names": [
+				"Akash Nimare"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4957923754115072,
+			"title": "Zulip Mobile Enhancement",
+			"subcategory": "mobile",
+			"organization": {
+				"id": 6508216277008384,
+				"name": "Zulip",
+				"slug": "zulip",
+				"website_url": "https://zulip.org/",
+				"category": "social_communications",
+				"contact_email": null,
+				"mailing_list": "https://groups.google.com/forum/#!forum/zulip-gsoc",
+				"irc_channel": "https://chat.zulip.org/",
+				"tagline": "Powerful, modern, open source group chat, complete with apps for every platform.",
+				"precis": "Zulip is a powerful group chat application. The server is written in Python with Django; you could also work on cross-platform mobile and desktop apps, or our many integrations.",
+				"description": "[Zulip](https://www.zulip.org) is a powerful, open source group chat application. The core web app is written in Python and uses the Django framework. We also make a React Native iOS app, a cross-platform Electron desktop app, and many service integrations, all open source.\n\nZulip supports both private messaging and group chats via conversation streams. Zulip also supports fast search, drag-and-drop file uploads, image previews, group private messages, audible notifications, missed-message emails, desktop apps, and [much more](https://www.zulip.org).\n\nZulip has gained a considerable amount of traction [since Dropbox released it as open source software in September 2015](https://blogs.dropbox.com/tech/2015/09/open-sourcing-zulip-a-dropbox-hack-week-project/), and is gaining more users at a rapid pace -- every day, at least tens of thousands of people use Zulip. Your work on Zulip will have impact on the daily experiences of a huge number of people.\n\nAs an organization, we value high-quality mentorship and making sure our product quality is extremely high -- you can expect to learn a lot how to make a large software project successful from disciplined code reviews by highly experienced engineers. Since Zulip is a group chat product, your GSoC experience with the Zulip project will be highly interactive (often collaborating with developers over chat to solve tricky problems), with a real focus on teaching you the concepts and reasoning behind how Zulip is engineered and how to make it better.",
+				"tags": [],
+				"primary_open_source_license": "Apache License 2.0 (Apache-2.0)",
+				"image_url": "//lh3.googleusercontent.com/4QMZsEPNQGKdGyU35C4SdDK6FeyuTwdeErPxqrt1E3WTja3Q0pTmMVp0fTYfaZpSwATBhoVSQXUYzbJ9MgI-5fMIq7mHMxg",
+				"image_bg_color": "7e98ad",
+				"gplus_url": null,
+				"twitter_url": "http://twitter.com/zuliposs",
+				"blog_url": "https://blog.zulip.org/",
+				"application_instructions": "We have application instructions at [our ideas page](https://github.com/zulip/zulip.github.io/blob/master/gsoc-ideas.md#application-tips-and-how-to-be-a-strong-candidate), along with tips on how to be a strong candidate.\n\nThe best applicants are those who take an ownership mentality with the part of the project that they're working on: finding and reporting bugs, reviewing others' code, carefully testing their work when they fix issues to ensure they don't cause other problems, carefully explaining their changes with clear variable names, comments, and commit messages, and helping other contributors with their work, just like the maintainer of an open source project would.",
+				"topic_tags": [
+					"enterprise",
+					"web development",
+					"group chat",
+					"cross-platform",
+					"mobile applications"
+				],
+				"technology_tags": [
+					"python",
+					"django",
+					"javascript",
+					"react native",
+					"electron"
+				],
+				"proposal_tags": [
+					"mobile",
+					"performance",
+					"integration",
+					"automated testing",
+					"apis",
+					"desktop",
+					"javascript",
+					"user experience",
+					"emoji",
+					"analytics"
+				],
+				"ideas_list": "https://github.com/zulip/zulip.github.io/blob/master/gsoc-ideas.md",
+				"contact_method": "https://chat.zulip.org/",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5655251355959296,
+				"display_name": "kunall17",
+				"program_year": 2017
+			},
+			"abstract": "The current react native project runs great for iOS but a little buggy for Android. I intend to make it more robust, easy to use by implementing a plethora of new features like a new compose message layout/action system, push notifications, drafts screen, settings screen etc. while fixing most of the bugs to make the project near perfect before my program ends.",
+			"assignee_display_names": [
+				"Boris Yankov"
+			],
+			"program_year": 2017
+		},
+		{
+			"id": 4807118392655872,
+			"title": "“Proposal apertium cat-srd and ita-srd”",
+			"subcategory": "new language pair",
+			"organization": {
+				"id": 5100746233085952,
+				"name": "Apertium",
+				"slug": "apertium",
+				"website_url": "http://www.apertium.org",
+				"category": "other",
+				"contact_email": "apertium-contact@lists.sourceforge.net",
+				"mailing_list": "http://wiki.apertium.org/wiki/Contact",
+				"irc_channel": "http://wiki.apertium.org/wiki/IRC",
+				"tagline": "Free/open-source rule-based machine translation",
+				"precis": "Apertium is a free/open-source platform for rule-based machine translation and language technology which is aimed providing support for lesser-resourced and marginalised languages.",
+				"description": "Apertium is a free/open-source machine translation platform, initially aimed at related-language pairs (such as Spanish–Catalan) but which has been expanded to deal with more divergent language pairs (such as English–Catalan and even Basque→English). The platform provides\r\n\r\n- a language-independent machine translation engine\r\n- tools to manage the linguistic data necessary to build a machine translation system for a given language pair and\r\n- linguistic data for a growing number of languages and language pairs",
+				"tags": [],
+				"primary_open_source_license": "GNU General Public License version 3.0 (GPL-3.0)",
+				"image_url": "//lh3.googleusercontent.com/fg0u5Ly3gk1odTanmMg5WHTuFA4vJwfT-p3jxGg-dZe0yJKcb18-TNAUi8-FB9oHskX8hDC_2clCpN_2BXI8FBrg6QX444Yf",
+				"image_bg_color": "",
+				"gplus_url": "https://plus.google.com/+ApertiumOrg",
+				"twitter_url": "",
+				"blog_url": "",
+				"application_instructions": "We have a Wiki page with tips and an application template: [1] . Here are the main tips to help you when writing your GSOC application with Apertium.\r\n\r\n- Be realistic: We're more likely to accept realistic ideas than far-out wacky ones. But if you have a wacky idea, we might still be interested if we can turn it into something achievable in 3 months.\r\n- Be appropriate: Demonstrate you have a knowledge of Apertium, how it works and the problem it has that you'd like to solve.\r\n- Have a plan: Three months may seem like a long time, but it isn't. Provide a weekly plan with dates and deliverables. Leave time for getting familiar with the platform — ideally before, or in the community bonding period — and for documentation. If you plan to work on a language pair, make yourself familiar with testvoc and other quality controls, and factor those in. If you know of any breaks or absences beforehand, mention them and plan around them.\r\n- Get in contact ASAP!: We get lots of proposals: only a few are good. Contact your potential mentor as soon as possible: send your proposal to the mailing list, hang out on IRC, ask for feedback, and refine your application based on feedback. If you are remembered, you are more likely to be picked.\r\n- Read the Ideas Page! If you find yourself asking 'do you have any Java/Python/Fortran/x86 assembler projects...' -- you didn't read the ideas page. Read the ideas page. \r\n\r\n1. http://wiki.apertium.org/wiki/Top_tips_for_GSOC_applications",
+				"topic_tags": [
+					"natural language processing",
+					"machine translation",
+					"lesser-resourced languages"
+				],
+				"technology_tags": [
+					"c++",
+					"xml",
+					"python",
+					"nlp"
+				],
+				"proposal_tags": [
+					"new language pair",
+					"improve existing pair",
+					"engine improvements",
+					"end-user application",
+					"website improvements"
+				],
+				"ideas_list": "http://wiki.apertium.org/wiki/Ideas_for_Google_Summer_of_Code",
+				"contact_method": "apertium-contact@lists.sourceforge.net",
+				"program_year": 2017
+			},
+			"student": {
+				"id": 5556428111609856,
+				"display_name": "Gianfranco Fronteddu",
+				"program_year": 2017
+			},
+			"abstract": "Catalan to Sardinian (apertium-cat-srd):\nThe project has already started and currently the bidix is in the Staging section. The Catalan language is definitely the one that has the most resources in the Apertium platform. The cat-srd bidix has 2645 words with a trimmed coverage of 77.7% and a Wer rate of 34.8%: my goal is to bring coverage up to 86,5% and WER to 15%. The work that I think I can make concerns the increased coverage in bidix,  work on transfer rules lexical selection.\n\nApertium Italian to Sardinian (apertium ita-srd):\nLast year, thanks to Google Summer of Code program, the first Italian-Sardinian translator was released, apertium ita-srd. The project was a success.\nAs for apertium ita> srd the goal is to focus on transfer rules: through the structural differences highlighted by the completion of pending tests, this time srd>it requires the construction of new transfer rules that allow to solve problems like enclitics and proclítics (Sardinian there are words that have 3 enclitics and Italian 2, superlatives and NP possessive, lexical selection and morphological disambiguation.",
+			"assignee_display_names": [
+				"Hèctor Alòs i Font",
+				"Adrià Martín-Mor",
+				"Xavier Ivars Ribes"
+			],
+			"program_year": 2017
+		}
+	]
+}
