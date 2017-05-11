@@ -1,3 +1,5 @@
+# Its bad but it does what it was meant to do.
+
 require "active_record"
 
 ActiveRecord::Base.establish_connection(
@@ -33,8 +35,6 @@ def init
   end
 end
 
-
-
 class Student < ActiveRecord::Base
   has_one :project
   belongs_to :organization
@@ -55,12 +55,14 @@ class Tag < ActiveRecord::Base
   belongs_to :project
 end
 
+# Helper function
 def create_student(student)
   name = student['display_name']
   s = Student.create(:name=>name)
   return s
 end
 
+# Helper function
 def create_project(project)
   name = project['title']
   p = Project.create(
@@ -69,6 +71,7 @@ def create_project(project)
   return p
 end
 
+# Helper function
 def create_organization(organization)
   name = organization['name']
   p = Organization.create(
@@ -77,6 +80,9 @@ def create_organization(organization)
   return p
 end
 
+
+# Creates the schema
+# Adds data to db
 def initialize_db
   init
   (1...15).each do |i|
@@ -85,12 +91,6 @@ def initialize_db
     h = JSON.parse(f)
     Organization.transaction do
       h['results'].each do |result|
-
-        #name = student['display_name']
-        #gsoc_id = student['id']%10000
-        #Student.create(:name=>name, :gsoc_id=>gsoc_id)
-        #puts Student.count
-
         org = Organization.find_by_name(result['organization']['name'])
         if org.nil?
           org = create_organization(result['organization'])
@@ -110,6 +110,7 @@ def initialize_db
   end
 end
 
+# A helper function to merge all json files into one.
 def combine_data
   results = []
   (1...15).each do |i|
@@ -123,7 +124,6 @@ def combine_data
   puts results.length
   File.write("combined.json", results)
 end
-
 
 initialize_db
 #combine_data
