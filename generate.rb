@@ -110,4 +110,20 @@ def initialize_db
   end
 end
 
+def combine_data
+  results = []
+  (1...15).each do |i|
+    puts i
+    f = File.read("data/#{i}.json") #read the file
+    h = JSON.parse(f) # parse json
+    h['results'].each do |result|
+      results << result # append results to an array
+    end
+  end
+  puts results.length
+  File.write("combined.json", results)
+end
+
+
 initialize_db
+#combine_data
