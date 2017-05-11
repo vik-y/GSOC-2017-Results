@@ -17,9 +17,11 @@ to get more interesting results.
 
 For basic use cases you can just download the `gsoc.db` file and start your analysis. In case if you are looking for some advanced analysis you can find `combined.json` and `data` folder handy. Also don't forget to raise a pull request for what you do.
 
+`queries.sql` contains the sql queries written to extract meaningful data out of `gsoc.db`. If you have more queries in mind, add that as an issue or PR. 
+
 #### Basic Usage
 In case if you want to generate the `gsoc.db` file on your own system   
-```rb
+```sh
 # Assuming you have ruby installed on your system
 gem install activerecord
 git clone https://github.com/vik-y/GSOC-2017-Results
@@ -30,3 +32,5 @@ ruby generate.rb
 ### Contribution
 Please note that this code was written in a lot of hurry and requires a lot of fixups.
 If you have any idea in mind then feel free to raise an issue or a pull request.
+
+**If you have an sql query which generates meaningful result on the given dataset then feel free to add that as an issue or pull request.**
